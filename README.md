@@ -7,8 +7,8 @@ ___
   3. push to master branch
   4. push to heroku
   5. visit `wrlowc.herokuapp.com/py/{the name of the script}`
-     examples: `wrlowc.herokuapp.com/py/test1`  
-               `wrlowc.herokuapp.com/py/test2`  
+     examples: `wrlowc.herokuapp.com/py/test1  
+               `wrlowc.herokuapp.com/py/test2  
                `wrlowc.herokuapp.com/py/args_test?params=ben sat on a log`  
      
 ## Run local server
