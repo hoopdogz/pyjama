@@ -11,7 +11,7 @@ ___
      examples: 
        - `wrlowc.herokuapp.com/py/test1`  
        - `wrlowc.herokuapp.com/py/test2`
-       - `wrlowc.herokuapp.com/py/args_test?params=ben sat on a log`  
+       - `wrlowc.herokuapp.com/py/test_args?params=ben sat on a log`  
      
 ## Run local server
   1. cd into the main folder
