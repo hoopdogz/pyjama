@@ -37,7 +37,7 @@ app.get('/py/:name', (req, res) => {
       dataToSend = data.toString()
      })
      python.on('close', (code) => {
-      console.log(`End ${req.params.name} (${code})`)
+      console.log(`End ${req.params.name}.py (${code})`)
       res.send(dataToSend)
     })
   } catch {
