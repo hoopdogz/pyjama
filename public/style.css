@@ -1,0 +1,70 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General */
+body {
+  font-family: monospace;
+  background-color: #A35;
+}
+
+.container {
+  /* Border */
+  border: 1px solid black;
+  border-radius: 3px;
+
+  /* Center Content */
+  margin: auto;
+  max-width: 600px;
+  padding: 0 20px;
+  margin-bottom: 1px;
+}
+
+
+/* Header */
+header .container {
+  margin-top: 1px;
+  background-color: blanchedalmond;
+  text-align: center;
+  padding: 2em;
+}
+
+
+
+/* Form */
+form {
+  display: block;
+  text-align: center;
+}
+
+#input .container {
+  background-color: cadetblue;
+  padding: 1.5em;
+}
+
+form label {
+  display: inline-block;
+}
+
+#submit-btn {
+  font-family: monospace;
+}
+
+#item {
+  font-family: monospace;
+}
+
+
+
+/* Items */
+#list .container {
+  background-color: cadetblue;
+  padding: 0.5em;
+}
+
+#list .container p {
+  margin: 20px 10px;
+}
