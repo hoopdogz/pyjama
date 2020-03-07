@@ -17,3 +17,9 @@ ___
   1. cd into the main folder
   2. run `node app.js`
   3. visit `http://localhost:4000/` in the browser
+
+## Push changes to the repo
+In the terminal:
+  1. git add .
+  2. git commit -m "{details of the change}"
+  3. git push origin master
