@@ -11,7 +11,7 @@ base = DB()
 base.load(path)
 
 if (sys.argv[1] == "add"):
-  base.add_record("x,{},{}".format(sys.argv[2], sys.argv[3]))
+  base.add_record("x,{},{}".format(sys.argv[2], sys.argv[3]).replace('-', ' '))
   base.save(path)
 
 elif (sys.argv[1] == "get"):
