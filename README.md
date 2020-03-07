@@ -24,6 +24,3 @@ In the terminal:
   2. git commit -m "{details of the change}"
   3. git push origin master
   4. git push heroku master
-
-#trying tex
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\theta\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
