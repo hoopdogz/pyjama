@@ -2,8 +2,10 @@ from record import Record
 from db import DB
 
 import sys
+import os
 
-path = 'data/records.txt'
+# path = 'data/records.txt'
+path = os.path.dirname(os.path.realpath(__file__)) + '/data/records.txt'
 
 base = DB()
 base.load(path)
