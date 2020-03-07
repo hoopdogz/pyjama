@@ -29,7 +29,7 @@ ___
 
 ## dinodb.py examples
 - Add record:
-  - `py dinodb.py add ben "hello to the world"`
+  - `py dinodb.py add ben hello-to-the-world` (need to replace spaces with -)
   
 - Get record:
   - `py dinodb.py get {id}`
