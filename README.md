@@ -26,4 +26,4 @@ In the terminal:
 
 ##trying latex script
 
-$$ \sum _{n=-\inf}^\inf{\exp}^{-x^2} = \frac{\sqrt{\pi}}{2} $$
+\\ \sum _{n=-\inf}^\inf{\exp}^{-x^2} = \frac{\sqrt{\pi}}{2} \\
