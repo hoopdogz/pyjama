@@ -23,3 +23,7 @@ In the terminal:
   1. git add .
   2. git commit -m "{details of the change}"
   3. git push origin master
+
+##trying latex script
+
+$$ \sum _{n=-\inf}^\inf{\exp}^{-x^2} = \frac{\sqrt{\pi}}{2} $$
