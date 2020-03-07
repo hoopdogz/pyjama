@@ -23,7 +23,12 @@ In the terminal:
   1. git add .
   2. git commit -m "{details of the change}"
   3. git push origin master
+  4. git push heroku master
 
 ##trying latex script
 
+<<<<<<< HEAD
 \\ \sum _{n=-\inf}^\inf{\exp}^{-x^2} = \frac{\sqrt{\pi}}{2} \\
+=======
+$$ \sum _{n=-\inf}^\inf{\exp}^{-x^2} = \frac{\sqrt{\pi}}{2} $$
+>>>>>>> 43649d4041113ab2d078d21d8565b8785f95fb61
