@@ -24,6 +24,13 @@ class UI {
   }
 }
 
+const read_data = () => {
+
+  fetch(`/py/db_read`).then((res) => {
+    console.log(res)
+  })
+}
+
 
 
 // Event listener for add book
@@ -38,3 +45,5 @@ document.getElementById('input').addEventListener('submit',
 
   e.preventDefault();
 })
+
+read_data()
